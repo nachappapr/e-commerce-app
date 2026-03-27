@@ -1,0 +1,1 @@
+- [Base branch convention](project_base_branch.md) — default PR base is `main`; repo is `nachappapr/e-commerce-app`
