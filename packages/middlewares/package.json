@@ -1,0 +1,21 @@
+{
+  "name": "@repo/middlewares",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.15.3",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "express": "^5.0.0",
+    "zod": "^4.0.0"
+  }
+}
